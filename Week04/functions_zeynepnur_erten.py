@@ -2,7 +2,7 @@
 custom_power = lambda x=0,/, e=1 : x ** e
 
 
-def custom_equation(int x, int y, /, int a, int b,*, int c) -> float :
+def custom_equation(x: int , y: int , /, a:  int, b: int , * , c: int) -> float :
   """
    This function returns the result of an operation based on the specified base and exponent values.
 
